@@ -1,0 +1,46 @@
+.chat-bubble {
+    position: relative;
+    max-width: 75%; /* Adjusted to use percentage for consistency */
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for better appearance */
+}
+
+.sent-bubble {
+    background-color: #d4f8e8;
+    border-color: #34bf58;
+    /* text-align: justify; */
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.received-bubble {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+    /* text-align: justify; */
+    margin-left: 10px;
+}
+
+.sent-arrow::after,
+.received-arrow::after {
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.sent-arrow::after {
+    left: 100%; /* Position the arrow on the left side for sent messages */
+    top: 10px;
+    border-color: transparent;
+    border-left-color: #34bf58; /* Change to border-left-color */
+}
+
+.received-arrow::after {
+    right: 100%; /* Position the arrow on the right side for received messages */
+    top: 10px;
+    border-color: transparent;
+    border-right-color: #ccc; /* Change to border-right-color */
+}
