@@ -3,7 +3,7 @@
 ForoCity is a web forum that allows users to create and participate in discussion topics of their city. It has groups divided by cities and topics divided by categories (By using Tags). User can create posts for each topic and comment on them. It has also votes so that user can search for the most popular topics. It also have direct messages between users.
 
 # URL
-
+http://forocity.gurjant.fyi/
 http://84.235.233.11
 
 # How to run the project
